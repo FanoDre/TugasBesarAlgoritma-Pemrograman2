@@ -2,41 +2,22 @@ import os
 from Materi.pertemuan import *
 os.system('cls')
 
-menu = [' Pertemuan 1', ' Pertemuan 2', ' Pertemuan 3',
-        ' Pertemuan 4', ' Pertemuan 5', ' Pertemuan 6',
-        ' Pertemuan 7', ' Pertemuan 8', ' Pertemuan 9', 
-        'Pertemuan 10', 'Pertemuan 11', 'Pertemuan 12',
-        'Pertemuan 13']
-
-menus = """MENU:
-      1. Lihat Materi
-      2. Lihat Tugas
-      3. Menu Utama"""
-
 while True: 
   print(50*'=')
-  print("\t\tSelamat Datang!")
-  print(50*'=')
-  print("\t      Aplikasi Pembelajaran")
-  print("\t    Algoritma & Pemrograman 2")
+  print(Header.titleUtama)
   print(50*'=')
   
   print("MENU : ")
-  for i, data in enumerate(menu):
+  for i, data in enumerate(Header.menu):
     print(f'\t{i+1}. {data}')
     
   print(50*'=')
   pilihMenu = input("Pilih Menu 1-13 [Q:Exit]: ").lower()
   
   if pilihMenu == "1":
+    os.system('cls')
     while True:
-      os.system('cls')
-      print(50*'=')
-      print("\t\t  (Pertemuan 1)")
-      print("\t     Pengenalan Dasar Python")
-      print(50*'-')
-      print(menus)
-      print(50*'-')
+      print(Pertemuan1.menu())
       pilihMenus = input("Pilih Menu: ")
       print(50*'-')
       if pilihMenus == "1":
@@ -47,19 +28,16 @@ while True:
         os.system('cls')
         break
       else:
+        os.system('cls')
+        print(50*'=')
         print("Menu tidak ditemukan!")
         continue
       print(50*'-')
     
   elif pilihMenu == "2":
+    os.system('cls')
     while True:
-      os.system('cls')
-      print(50*'=')
-      print("\t\t  (Pertemuan 2)")
-      print("\t     Pengenalan Dasar Python")
-      print(50*'-')
-      print(menus)
-      print(50*'-')
+      print(Pertemuan2.menu())
       pilihMenus = input("Pilih Menu: ")
       print(50*'-')
       if pilihMenus == "1":
@@ -70,19 +48,16 @@ while True:
         os.system('cls')
         break
       else:
+        os.system('cls')
+        print(50*'=')
         print("Menu tidak ditemukan!")
         continue
       print(50*'-')
       
   elif pilihMenu == "3":
+    os.system('cls')
     while True:
-      os.system('cls')
-      print(50*'=')
-      print("\t\t  (Pertemuan 3)")
-      print("Python Data Types, Variables, Operators, and Basic I/O Operations")
-      print(50*'-')
-      print(menus)
-      print(50*'-')
+      print(Pertemuan3.menu())
       pilihMenus = input("Pilih Menu: ")
       print(50*'-')
       if pilihMenus == "1":
@@ -93,19 +68,16 @@ while True:
         os.system('cls')
         break
       else:
+        os.system('cls')
+        print(50*'=')
         print("Menu tidak ditemukan!")
         continue
       print(50*'-')
       
   elif pilihMenu == "4":
+    os.system('cls')
     while True:
-      os.system('cls')
-      print(50*'=')
-      print("\t\t  (Pertemuan 4)")
-      print("\t    Output Program pada Python")
-      print(50*'-')
-      print(menus)
-      print(50*'-')
+      print(Pertemuan4.menu())
       pilihMenus = input("Pilih Menu: ")
       print(50*'-')
       if pilihMenus == "1":
@@ -116,19 +88,16 @@ while True:
         os.system('cls')
         break
       else:
+        os.system('cls')
+        print(50*'=')
         print("Menu tidak ditemukan!")
         continue
       print(50*'-')   
       
   elif pilihMenu == "5":
+    os.system('cls')
     while True:
-      os.system('cls')
-      print(50*'=')
-      print("\t\t  (Pertemuan 5)")
-      print("  Boolean Values, Conditional Execution Continues")
-      print(50*'-')
-      print(menus)
-      print(50*'-')
+      print(Pertemuan5.menu())
       pilihMenus = input("Pilih Menu: ")
       print(50*'-')
       if pilihMenus == "1":
@@ -139,19 +108,16 @@ while True:
         os.system('cls')
         break
       else:
+        os.system('cls')
+        print(50*'=')
         print("Menu tidak ditemukan!")
         continue
       print(50*'-')
   
   elif pilihMenu == "6":
+    os.system('cls')
     while True:
-      os.system('cls')
-      print(50*'=')
-      print("\t\t  (Pertemuan 6)")
-      print("\t Loops, Lists and List Processing")
-      print(50*'-')
-      print(menus)
-      print(50*'-')
+      print(Pertemuan6.menu())
       pilihMenus = input("Pilih Menu: ")
       print(50*'-')
       if pilihMenus == "1":
@@ -162,19 +128,16 @@ while True:
         os.system('cls')
         break
       else:
+        os.system('cls')
+        print(50*'=')
         print("Menu tidak ditemukan!")
         continue
       print(50*'-')
   
   elif pilihMenu == "7":
+    os.system('cls')
     while True:
-      os.system('cls')
-      print(50*'=')
-      print("\t\t  (Pertemuan 7)")
-      print("\t\t     Pra UTS")
-      print(50*'-')
-      print(menus)
-      print(50*'-')
+      print(Pertemuan7.menu())
       pilihMenus = input("Pilih Menu: ")
       print(50*'-')
       if pilihMenus == "1":
@@ -185,19 +148,16 @@ while True:
         os.system('cls')
         break
       else:
+        os.system('cls')
+        print(50*'=')
         print("Menu tidak ditemukan!")
         continue
       print(50*'-')
   
   elif pilihMenu == "8":
+    os.system('cls')
     while True:
-      os.system('cls')
-      print(50*'=')
-      print("\t\t  (Pertemuan 8)")
-      print("\t\t       UTS")
-      print(50*'-')
-      print(menus)
-      print(50*'-')
+      print(Pertemuan8.menu())
       pilihMenus = input("Pilih Menu: ")
       print(50*'-')
       if pilihMenus == "1":
@@ -208,19 +168,16 @@ while True:
         os.system('cls')
         break
       else:
+        os.system('cls')
+        print(50*'=')
         print("Menu tidak ditemukan!")
         continue
       print(50*'-')
   
   elif pilihMenu == "9":
+    os.system('cls')
     while True:
-      os.system('cls')
-      print(50*'=')
-      print("\t\t  (Pertemuan 9)")
-      print("\t\t    Prosedur")
-      print(50*'-')
-      print(menus)
-      print(50*'-')
+      print(Pertemuan9.menu())
       pilihMenus = input("Pilih Menu: ")
       print(50*'-')
       if pilihMenus == "1":
@@ -231,19 +188,16 @@ while True:
         os.system('cls')
         break
       else:
+        os.system('cls')
+        print(50*'=')
         print("Menu tidak ditemukan!")
         continue
       print(50*'-')
   
   elif pilihMenu == "10":
+    os.system('cls')
     while True:
-      os.system('cls')
-      print(50*'=')
-      print("\t\t  (Pertemuan 10)")
-      print("\t\tFungsi dan Parameter")
-      print(50*'-')
-      print(menus)
-      print(50*'-')
+      print(Pertemuan10.menu())
       pilihMenus = input("Pilih Menu: ")
       print(50*'-')
       if pilihMenus == "1":
@@ -254,19 +208,16 @@ while True:
         os.system('cls')
         break
       else:
+        os.system('cls')
+        print(50*'=')
         print("Menu tidak ditemukan!")
         continue
       print(50*'-')
   
   elif pilihMenu == "11":
+    os.system('cls')
     while True:
-      os.system('cls')
-      print(50*'=')
-      print("\t\t  (Pertemuan 11)")
-      print("    Array Manipulation: Sorting dan Searching")
-      print(50*'-')
-      print(menus)
-      print(50*'-')
+      print(Pertemuan11.menu())
       pilihMenus = input("Pilih Menu: ")
       print(50*'-')
       if pilihMenus == "1":
@@ -277,19 +228,16 @@ while True:
         os.system('cls')
         break
       else:
+        os.system('cls')
+        print(50*'=')
         print("Menu tidak ditemukan!")
         continue
       print(50*'-')
   
   elif pilihMenu == "12":
+    os.system('cls')
     while True:
-      os.system('cls')
-      print(50*'=')
-      print("\t\t  (Pertemuan 12)")
-      print("\t   Exceptions dan Data Processing")
-      print(50*'-')
-      print(menus)
-      print(50*'-')
+      print(Pertemuan12.menu())
       pilihMenus = input("Pilih Menu: ")
       print(50*'-')
       if pilihMenus == "1":
@@ -300,19 +248,16 @@ while True:
         os.system('cls')
         break
       else:
+        os.system('cls')
+        print(50*'=')
         print("Menu tidak ditemukan!")
         continue
       print(50*'-')
   
   elif pilihMenu == "13":
+    os.system('cls')
     while True:
-      os.system('cls')
-      print(50*'=')
-      print("\t\t  (Pertemuan 13)")
-      print("\t\tStruktur Data List")
-      print(50*'-')
-      print(menus)
-      print(50*'-')
+      print(Pertemuan13.menu())
       pilihMenus = input("Pilih Menu: ")
       print(50*'-')
       if pilihMenus == "1":
@@ -323,6 +268,8 @@ while True:
         os.system('cls')
         break
       else:
+        os.system('cls')
+        print(50*'=')
         print("Menu tidak ditemukan!")
         continue
       print(50*'-')
