@@ -4,7 +4,9 @@ os.system('cls')
 
 while True: 
   print(50*'=')
+  print()
   print(Header.titleUtama)
+  print()
   print(50*'=')
   
   print("MENU : ")

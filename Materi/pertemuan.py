@@ -65,7 +65,9 @@ class Pertemuan2():
     return urlOpen
   
   def tugas():
-    return "Belum ada tugas di Pertemuan 2"
+    url = 'https://drive.google.com/drive/folders/1z2zdSjCmwa8NQgT_Q0XDW6qHVXLO2zPM?usp=sharing'
+    urlOpen = webbrowser.open_new_tab(url)
+    return urlOpen
 
 class Pertemuan3():
   def menu():
@@ -82,7 +84,9 @@ class Pertemuan3():
     return urlOpen
   
   def tugas():
-    return "Belum ada tugas di Pertemuan 3"
+    url = 'https://drive.google.com/drive/folders/14mGempH2weMR79Pfi1flJoOyhQh7kcIG?usp=sharing'
+    urlOpen = webbrowser.open_new_tab(url)
+    return urlOpen
   
 class Pertemuan4():
   def menu():
@@ -99,7 +103,9 @@ class Pertemuan4():
     return urlOpen
   
   def tugas():
-    return "Belum ada tugas di Pertemuan 4"
+    url = 'https://drive.google.com/drive/folders/1pvVeOKNYwOmt56BMAggDfH4pWmn23mpP?usp=sharing'
+    urlOpen = webbrowser.open_new_tab(url)
+    return urlOpen
 
 class Pertemuan5():
   def menu():
@@ -116,7 +122,9 @@ class Pertemuan5():
     return urlOpen
   
   def tugas():
-    return "Belum ada tugas di Pertemuan 5"
+    url = 'https://drive.google.com/drive/folders/1UIqQNBgKoUQdYNi_j9JcxywYXU8ZFSWd?usp=sharing'
+    urlOpen = webbrowser.open_new_tab(url)
+    return urlOpen
 
 class Pertemuan6():
   def menu():
@@ -134,7 +142,9 @@ class Pertemuan6():
     return urlOpen
   
   def tugas():
-    return "Belum ada tugas di Pertemuan 6"
+    url = 'https://drive.google.com/drive/folders/1TWgv6upP_4eeXo2ZunoF9HqPBMqbmyNi?usp=sharing'
+    urlOpen = webbrowser.open_new_tab(url)
+    return urlOpen
 
 class Pertemuan7():
   def menu():
@@ -151,7 +161,9 @@ class Pertemuan7():
     return urlOpen
   
   def tugas():
-    return "Belum ada tugas di Pertemuan 7"
+    url = 'https://drive.google.com/drive/folders/1Ezf8Wi0yvIgbn925ueISr6UiIg1X5r_1?usp=sharing'
+    urlOpen = webbrowser.open_new_tab(url)
+    return urlOpen
   
   
 class Pertemuan8():
@@ -169,7 +181,9 @@ class Pertemuan8():
     return urlOpen
   
   def tugas():
-    return "Belum ada tugas di Pertemuan 8"
+    url = 'https://drive.google.com/drive/folders/1aFsRvR7xwS8CKCT-MiVbX1UIKd1VH7cE?usp=sharing'
+    urlOpen = webbrowser.open_new_tab(url)
+    return urlOpen
   
   
 class Pertemuan9():
@@ -187,7 +201,9 @@ class Pertemuan9():
     return urlOpen
   
   def tugas():
-    return "9"
+    url = 'https://drive.google.com/drive/folders/1MGXGub-0QvPfZbK08jnAveBxvs4POtUx?usp=sharing'
+    urlOpen = webbrowser.open_new_tab(url)
+    return urlOpen
   
 class Pertemuan10():
   def menu():
@@ -204,7 +220,9 @@ class Pertemuan10():
     return urlOpen
   
   def tugas():
-    return "10"
+    url = 'https://drive.google.com/drive/folders/1CXG43x0kq1gW_B8DULtBKsvBWTFAGfj-?usp=sharing'
+    urlOpen = webbrowser.open_new_tab(url)
+    return urlOpen
   
 class Pertemuan11():
   def menu():
@@ -221,7 +239,9 @@ class Pertemuan11():
     return urlOpen
   
   def tugas():
-    return "11"
+    url = 'https://drive.google.com/drive/folders/1NvzJrSE_nvbXDjbjm_cKU3gt5IrsFIqW?usp=sharing'
+    urlOpen = webbrowser.open_new_tab(url)
+    return urlOpen
   
 class Pertemuan12():
   def menu():
@@ -238,7 +258,9 @@ class Pertemuan12():
     return urlOpen
   
   def tugas():
-    return "12"
+    url = 'https://drive.google.com/drive/folders/14VcTFfoMU6kfRjE3BZVTtW0rOuKnvZY4?usp=sharing'
+    urlOpen = webbrowser.open_new_tab(url)
+    return urlOpen
   
 class Pertemuan13():
   def menu():
@@ -255,6 +277,8 @@ class Pertemuan13():
     return urlOpen
   
   def tugas():
-    return "13"
+    url = 'https://drive.google.com/drive/folders/12Wpyfk35zZYbW3yKe8-Zs-OWWPzrdAq9?usp=sharing'
+    urlOpen = webbrowser.open_new_tab(url)
+    return urlOpen
   
   
