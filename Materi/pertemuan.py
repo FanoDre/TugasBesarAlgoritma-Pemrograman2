@@ -67,7 +67,7 @@ class Pertemuan2():
   def tugas():
     url = 'https://drive.google.com/drive/folders/1z2zdSjCmwa8NQgT_Q0XDW6qHVXLO2zPM?usp=sharing'
     urlOpen = webbrowser.open_new_tab(url)
-    return urlOpen
+    return "Halaman Terbuka"
 
 class Pertemuan3():
   def menu():
