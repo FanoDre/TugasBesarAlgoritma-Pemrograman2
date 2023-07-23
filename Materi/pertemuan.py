@@ -1,6 +1,5 @@
 import webbrowser
 
-
 class Header():
   title = (
             ("[+] Pertemuan 1", "[+] Pengenalan Dasar Python"),
